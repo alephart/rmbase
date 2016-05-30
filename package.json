@@ -5,7 +5,11 @@
     "start": "meteor run"
   },
   "dependencies": {
-    "meteor-node-stubs": "~0.2.0"
+    "material-ui": "^0.15.0",
+    "meteor-node-stubs": "~0.2.0",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",      
+    "react-tap-event-plugin": "^1.0.0"
   },
   "description": "Un proyecto Meteor + React + Flow-Router y otros base",
   "version": "1.0.0",
