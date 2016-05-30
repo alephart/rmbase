@@ -13,14 +13,13 @@ const muiTheme = getMuiTheme({
   },
 });
 
-class MainLayout extends React.Component {
-  render() {
-    return (
+export const MainLayout = ({content}) => (
+    <div className="main-layout">
       <MuiThemeProvider muiTheme={muiTheme}>
         <AppBar title="My App Meteor + React" />
       </MuiThemeProvider>
-    );
-  }
-}
-
-export default MainLayout;
+      <main>
+        {content()}
+      </main>    
+    </div>
+)
