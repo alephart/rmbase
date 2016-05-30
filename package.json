@@ -6,5 +6,24 @@
   },
   "dependencies": {
     "meteor-node-stubs": "~0.2.0"
-  }
+  },
+  "description": "Un proyecto Meteor + React + Flow-Router y otros base",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alephart/rmbase.git"
+  },
+  "keywords": [
+    "meteor",
+    "react",
+    "router",
+    "mongo"
+  ],
+  "author": "Juan Pulido",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alephart/rmbase/issues"
+  },
+  "homepage": "https://github.com/alephart/rmbase#readme"
 }
